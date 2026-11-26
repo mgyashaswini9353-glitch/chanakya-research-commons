@@ -1,0 +1,254 @@
+[
+  {
+    "id_a": "orig_308",
+    "id_b": "dup_308_0",
+    "variant_type": "title_case_punctuation_and_author_initial_variant",
+    "original_title": "Digital transformation and the emergence of the Fintech sector: Systematic literature review",
+    "variant_title": "DIGITAL TRANSFORMATION AND THE EMERGENCE OF THE FINTECH SECTOR   SYSTEMATIC LITERATURE REVIEW"
+  },
+  {
+    "id_a": "orig_122",
+    "id_b": "dup_122_1",
+    "variant_type": "minhash_near_duplicate_title_and_author_variant",
+    "original_title": "Federated Learning: A Survey on Enabling Technologies, Protocols, and Applications",
+    "variant_title": "Federated Learning: A Survey on Enabling Technologies, Protocols, and Framework"
+  },
+  {
+    "id_a": "orig_116",
+    "id_b": "dup_116_2",
+    "variant_type": "cross_source_doi_prefix_and_author_reorder",
+    "original_title": "Digital Twin Technology Challenges and Applications: A Comprehensive Review",
+    "variant_title": "[Preprint] Digital Twin Technology Challenges and Applications: A Comprehensive Review"
+  },
+  {
+    "id_a": "orig_89",
+    "id_b": "dup_89_3",
+    "variant_type": "title_case_punctuation_and_author_initial_variant",
+    "original_title": "Deep Lake: a Lakehouse for Deep Learning",
+    "variant_title": "deep lake   a lakehouse for deep learning"
+  },
+  {
+    "id_a": "orig_315",
+    "id_b": "dup_315_4",
+    "variant_type": "minhash_near_duplicate_title_and_author_variant",
+    "original_title": "FinTech: a literature review of emerging financial technologies and applications",
+    "variant_title": "FinTech: a literature review of emerging financial technologies and Framework"
+  },
+  {
+    "id_a": "orig_311",
+    "id_b": "dup_311_5",
+    "variant_type": "cross_source_doi_prefix_and_author_reorder",
+    "original_title": "Current landscape and influence of big data on finance",
+    "variant_title": "[Preprint] Current landscape and influence of big data on finance"
+  },
+  {
+    "id_a": "orig_39",
+    "id_b": "dup_39_6",
+    "variant_type": "title_case_punctuation_and_author_initial_variant",
+    "original_title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+    "variant_title": "MAMBA   LINEAR TIME SEQUENCE MODELING WITH SELECTIVE STATE SPACES"
+  },
+  {
+    "id_a": "orig_104",
+    "id_b": "dup_104_7",
+    "variant_type": "minhash_near_duplicate_title_and_author_variant",
+    "original_title": "A Survey on Metaverse: Fundamentals, Security, and Privacy",
+    "variant_title": "A Survey on Metaverse: Fundamentals, Security, and Framework"
+  },
+  {
+    "id_a": "orig_279",
+    "id_b": "dup_279_8",
+    "variant_type": "cross_source_doi_prefix_and_author_reorder",
+    "original_title": "Future of industry 5.0 in society: human-centric solutions, challenges and prospective research areas",
+    "variant_title": "[Preprint] Future of industry 5.0 in society: human-centric solutions, challenges and prospective research areas"
+  },
+  {
+    "id_a": "orig_121",
+    "id_b": "dup_121_9",
+    "variant_type": "title_case_punctuation_and_author_initial_variant",
+    "original_title": "Digital Twins: State of the art theory and practice, challenges, and open research questions",
+    "variant_title": "digital twins   state of the art theory and practice, challenges, and open research questions"
+  },
+  {
+    "id_a": "orig_191",
+    "id_b": "dup_191_10",
+    "variant_type": "minhash_near_duplicate_title_and_author_variant",
+    "original_title": "Adaptive Extreme Edge Computing for Wearable Devices",
+    "variant_title": "Adaptive Extreme Edge Computing for Wearable Framework"
+  },
+  {
+    "id_a": "orig_179",
+    "id_b": "dup_179_11",
+    "variant_type": "cross_source_doi_prefix_and_author_reorder",
+    "original_title": "A survey on security in internet of things with a focus on the impact of emerging technologies",
+    "variant_title": "[Preprint] A survey on security in internet of things with a focus on the impact of emerging technologies"
+  },
+  {
+    "id_a": "orig_183",
+    "id_b": "dup_183_12",
+    "variant_type": "title_case_punctuation_and_author_initial_variant",
+    "original_title": "Hardware Implementation of Deep Network Accelerators Towards Healthcare and Biomedical Applications",
+    "variant_title": "HARDWARE IMPLEMENTATION OF DEEP NETWORK ACCELERATORS TOWARDS HEALTHCARE AND BIOMEDICAL APPLICATIONS"
+  },
+  {
+    "id_a": "orig_126",
+    "id_b": "dup_126_13",
+    "variant_type": "minhash_near_duplicate_title_and_author_variant",
+    "original_title": "6G for Vehicle-to-Everything (V2X) Communications: Enabling Technologies, Challenges, and Opportunities",
+    "variant_title": "6G for Vehicle-to-Everything (V2X) Communications: Enabling Technologies, Challenges, and Framework"
+  },
+  {
+    "id_a": "orig_20",
+    "id_b": "dup_20_14",
+    "variant_type": "cross_source_doi_prefix_and_author_reorder",
+    "original_title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+    "variant_title": "[Preprint] Retrieval-Augmented Generation for Large Language Models: A Survey"
+  },
+  {
+    "id_a": "orig_158",
+    "id_b": "dup_158_15",
+    "variant_type": "title_case_punctuation_and_author_initial_variant",
+    "original_title": "AI augmented Edge and Fog computing: Trends and challenges",
+    "variant_title": "ai augmented edge and fog computing   trends and challenges"
+  },
+  {
+    "id_a": "orig_18",
+    "id_b": "dup_18_16",
+    "variant_type": "minhash_near_duplicate_title_and_author_variant",
+    "original_title": "The STRING database in 2021: customizable protein–protein networks, and functional characterization of user-uploaded gene/measurement sets",
+    "variant_title": "The STRING database in 2021: customizable protein–protein networks, and functional characterization of user-uploaded gene/measurement Framework"
+  },
+  {
+    "id_a": "orig_296",
+    "id_b": "dup_296_17",
+    "variant_type": "cross_source_doi_prefix_and_author_reorder",
+    "original_title": "Security and Privacy for 6G: A Survey on Prospective Technologies and Challenges",
+    "variant_title": "[Preprint] Security and Privacy for 6G: A Survey on Prospective Technologies and Challenges"
+  },
+  {
+    "id_a": "orig_160",
+    "id_b": "dup_160_18",
+    "variant_type": "title_case_punctuation_and_author_initial_variant",
+    "original_title": "AI-driven approaches for optimizing power consumption: a comprehensive survey",
+    "variant_title": "AI DRIVEN APPROACHES FOR OPTIMIZING POWER CONSUMPTION   A COMPREHENSIVE SURVEY"
+  },
+  {
+    "id_a": "orig_24",
+    "id_b": "dup_24_19",
+    "variant_type": "minhash_near_duplicate_title_and_author_variant",
+    "original_title": "Generative Agents: Interactive Simulacra of Human Behavior",
+    "variant_title": "Generative Agents: Interactive Simulacra of Human Framework"
+  },
+  {
+    "id_a": "orig_103",
+    "id_b": "dup_103_20",
+    "variant_type": "cross_source_doi_prefix_and_author_reorder",
+    "original_title": "Deep Neural Networks and Tabular Data: A Survey",
+    "variant_title": "[Preprint] Deep Neural Networks and Tabular Data: A Survey"
+  },
+  {
+    "id_a": "orig_176",
+    "id_b": "dup_176_21",
+    "variant_type": "title_case_punctuation_and_author_initial_variant",
+    "original_title": "AEGNN: Asynchronous Event-based Graph Neural Networks",
+    "variant_title": "aegnn   asynchronous event based graph neural networks"
+  },
+  {
+    "id_a": "orig_38",
+    "id_b": "dup_38_22",
+    "variant_type": "minhash_near_duplicate_title_and_author_variant",
+    "original_title": "DINOv2: Learning Robust Visual Features without Supervision",
+    "variant_title": "DINOv2: Learning Robust Visual Features without Framework"
+  },
+  {
+    "id_a": "orig_111",
+    "id_b": "dup_111_23",
+    "variant_type": "cross_source_doi_prefix_and_author_reorder",
+    "original_title": "FedProto: Federated Prototype Learning across Heterogeneous Clients",
+    "variant_title": "[Preprint] FedProto: Federated Prototype Learning across Heterogeneous Clients"
+  },
+  {
+    "id_a": "orig_113",
+    "id_b": "dup_113_24",
+    "variant_type": "title_case_punctuation_and_author_initial_variant",
+    "original_title": "Deep Long-Tailed Learning: A Survey",
+    "variant_title": "DEEP LONG TAILED LEARNING   A SURVEY"
+  },
+  {
+    "id_a": "orig_41",
+    "id_b": "dup_41_25",
+    "variant_type": "minhash_near_duplicate_title_and_author_variant",
+    "original_title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+    "variant_title": "3D Gaussian Splatting for Real-Time Radiance Field Framework"
+  },
+  {
+    "id_a": "orig_199",
+    "id_b": "dup_199_26",
+    "variant_type": "cross_source_doi_prefix_and_author_reorder",
+    "original_title": "Genome-wide association studies",
+    "variant_title": "[Preprint] Genome-wide association studies"
+  },
+  {
+    "id_a": "orig_185",
+    "id_b": "dup_185_27",
+    "variant_type": "title_case_punctuation_and_author_initial_variant",
+    "original_title": "Self‐Powered Implantable Medical Devices: Photovoltaic Energy Harvesting Review",
+    "variant_title": "self‐powered implantable medical devices   photovoltaic energy harvesting review"
+  },
+  {
+    "id_a": "orig_222",
+    "id_b": "dup_222_28",
+    "variant_type": "minhash_near_duplicate_title_and_author_variant",
+    "original_title": "Assay Techniques and Test Development for COVID-19 Diagnosis",
+    "variant_title": "Assay Techniques and Test Development for COVID-19 Framework"
+  },
+  {
+    "id_a": "orig_117",
+    "id_b": "dup_117_29",
+    "variant_type": "cross_source_doi_prefix_and_author_reorder",
+    "original_title": "Re-Thinking Data Strategy and Integration for Artificial Intelligence: Concepts, Opportunities, and Challenges",
+    "variant_title": "[Preprint] Re-Thinking Data Strategy and Integration for Artificial Intelligence: Concepts, Opportunities, and Challenges"
+  },
+  {
+    "id_a": "orig_299",
+    "id_b": "dup_299_30",
+    "variant_type": "title_case_punctuation_and_author_initial_variant",
+    "original_title": "AI-Powered Innovation in Digital Transformation: Key Pillars and Industry Impact",
+    "variant_title": "AI POWERED INNOVATION IN DIGITAL TRANSFORMATION   KEY PILLARS AND INDUSTRY IMPACT"
+  },
+  {
+    "id_a": "orig_134",
+    "id_b": "dup_134_31",
+    "variant_type": "minhash_near_duplicate_title_and_author_variant",
+    "original_title": "TinyML for Ultra-Low Power AI and Large Scale IoT Deployments: A Systematic Review",
+    "variant_title": "TinyML for Ultra-Low Power AI and Large Scale IoT Deployments: A Systematic Framework"
+  },
+  {
+    "id_a": "orig_180",
+    "id_b": "dup_180_32",
+    "variant_type": "cross_source_doi_prefix_and_author_reorder",
+    "original_title": "An Overview of Hardware Security and Trust: Threats, Countermeasures, and Design Tools",
+    "variant_title": "[Preprint] An Overview of Hardware Security and Trust: Threats, Countermeasures, and Design Tools"
+  },
+  {
+    "id_a": "orig_123",
+    "id_b": "dup_123_33",
+    "variant_type": "title_case_punctuation_and_author_initial_variant",
+    "original_title": "Towards Out-Of-Distribution Generalization: A Survey",
+    "variant_title": "towards out of distribution generalization   a survey"
+  },
+  {
+    "id_a": "orig_316",
+    "id_b": "dup_316_34",
+    "variant_type": "minhash_near_duplicate_title_and_author_variant",
+    "original_title": "Environmental, social, and governance (ESG) and artificial intelligence in finance: State-of-the-art and research takeaways",
+    "variant_title": "Environmental, social, and governance (ESG) and artificial intelligence in finance: State-of-the-art and research Framework"
+  },
+  {
+    "id_a": "orig_57",
+    "id_b": "dup_57_35",
+    "variant_type": "cross_source_doi_prefix_and_author_reorder",
+    "original_title": "EfficientNetV2: Smaller Models and Faster Training",
+    "variant_title": "[Preprint] EfficientNetV2: Smaller Models and Faster Training"
+  }
+]

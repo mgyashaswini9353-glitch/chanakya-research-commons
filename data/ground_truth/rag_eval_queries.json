@@ -1,0 +1,62 @@
+[
+  {
+    "question": "How does retrieval-augmented generation improve large language model accuracy?",
+    "expect_answerable": true,
+    "expected_keywords": [
+      "retrieval",
+      "language",
+      "generation",
+      "knowledge",
+      "model"
+    ]
+  },
+  {
+    "question": "What approaches are used for federated learning and anomaly detection in data systems?",
+    "expect_answerable": true,
+    "expected_keywords": [
+      "federated",
+      "anomaly",
+      "learning",
+      "privacy",
+      "data"
+    ]
+  },
+  {
+    "question": "What are recent advances in solid-state batteries and perovskite solar cells?",
+    "expect_answerable": true,
+    "expected_keywords": [
+      "battery",
+      "solid",
+      "solar",
+      "perovskite",
+      "energy"
+    ]
+  },
+  {
+    "question": "How is machine learning applied to bioinformatics, protein folding, and genomics?",
+    "expect_answerable": true,
+    "expected_keywords": [
+      "protein",
+      "genomic",
+      "bioinformatics",
+      "biology",
+      "learning"
+    ]
+  },
+  {
+    "question": "What techniques optimize autonomous robotics and edge AI systems?",
+    "expect_answerable": true,
+    "expected_keywords": [
+      "edge",
+      "robot",
+      "autonomous",
+      "embedded",
+      "inference"
+    ]
+  },
+  {
+    "question": "What are the archaeological excavation findings of ancient Martian underwater coral reefs in 1742?",
+    "expect_answerable": false,
+    "expected_keywords": []
+  }
+]

@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: #FAF8F2;
+    color: #263247;
+    @apply font-sans antialiased;
+  }
+}
+
+@layer components {
+  .surface-card {
+    @apply bg-white rounded-xl border border-[#E6E2D8] shadow-card;
+  }
+
+  .surface-card-interactive {
+    @apply bg-white rounded-xl border border-[#E6E2D8] shadow-card hover:border-[#D4CEBE] hover:shadow-cardHover transition-all duration-150;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-[#142B4A] px-4 py-2 text-sm font-medium text-white hover:bg-[#0E2038] focus:outline-none focus:ring-2 focus:ring-[#142B4A]/25 disabled:opacity-50 disabled:cursor-not-allowed transition-colors;
+  }
+
+  .btn-gold {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-[#D6AA35] px-4 py-2 text-sm font-semibold text-[#142B4A] hover:bg-[#C69925] focus:outline-none focus:ring-2 focus:ring-[#D6AA35]/35 disabled:opacity-50 transition-colors;
+  }
+
+  .btn-accent {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-[#142B4A] px-4 py-2 text-sm font-medium text-white hover:bg-[#0E2038] focus:outline-none focus:ring-2 focus:ring-[#D6AA35]/30 disabled:opacity-50 transition-colors;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-[#DCD7CA] bg-white px-3.5 py-2 text-sm font-medium text-[#263247] hover:bg-[#FAF8F2] focus:outline-none focus:ring-2 focus:ring-[#142B4A]/15 disabled:opacity-50 transition-colors;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-lg px-2.5 py-1.5 text-sm font-medium text-[#697386] hover:bg-[#F3F4F2] hover:text-[#142B4A] transition-colors;
+  }
+
+  .input-field {
+    @apply w-full rounded-lg border border-[#DCD7CA] bg-white px-3.5 py-2 text-sm text-[#263247] placeholder-[#8A92A0] focus:border-[#142B4A] focus:outline-none focus:ring-2 focus:ring-[#D6AA35]/25 transition-colors;
+  }
+
+  .topic-pill {
+    @apply inline-flex items-center rounded-full bg-[#F3F4F2] px-3 py-0.5 text-xs font-medium text-[#3B485C] hover:bg-[#E9EFE8] hover:text-[#142B4A] transition-colors;
+  }
+
+  .sage-badge {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-[11px] font-medium bg-[#E9EFE8] text-[#2E5438];
+  }
+
+  .gold-badge {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-[11px] font-medium bg-[#FBF5E4] text-[#8E6914] border border-[#EFE2B8];
+  }
+
+  .subtle-badge {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-[11px] font-medium bg-[#E9EFE8] text-[#2E5438];
+  }
+}

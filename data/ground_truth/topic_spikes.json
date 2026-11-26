@@ -1,0 +1,26 @@
+[
+  {
+    "topic": "retrieval-augmented-generation",
+    "department": "CSAI",
+    "window_start": "2026-11-18",
+    "window_end": "2026-11-23",
+    "injected_events": 115,
+    "cause": "University-wide LLM & RAG Hackathon Week"
+  },
+  {
+    "topic": "solid-state-batteries",
+    "department": "REM",
+    "window_start": "2026-11-12",
+    "window_end": "2026-11-16",
+    "injected_events": 95,
+    "cause": "Chanakya Clean Energy Symposium Keynote"
+  },
+  {
+    "topic": "federated-learning",
+    "department": "DSE",
+    "window_start": "2026-11-05",
+    "window_end": "2026-11-09",
+    "injected_events": 90,
+    "cause": "National Privacy-Preserving AI Grant Call"
+  }
+]

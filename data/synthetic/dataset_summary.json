@@ -1,0 +1,26 @@
+{
+  "departments": 6,
+  "users": 60,
+  "planted_spam_accounts": 6,
+  "papers_total": 560,
+  "papers_external_real": 419,
+  "papers_synthetic": 141,
+  "papers_in_university_library": 224,
+  "citation_edges": 1950,
+  "user_follows": 629,
+  "saved_papers": 686,
+  "posts": 514,
+  "comments": 2039,
+  "posts_and_comments_combined": 2553,
+  "activity_events": 12200,
+  "synthetic_papers_added_this_run": 141,
+  "citations_added_this_run": 1915,
+  "ground_truth": {
+    "corpus_size": 176,
+    "planted_duplicate_pairs": 36,
+    "planted_topic_spikes": 3,
+    "planted_spam_accounts": 6,
+    "search_queries": 12,
+    "rag_queries": 6
+  }
+}

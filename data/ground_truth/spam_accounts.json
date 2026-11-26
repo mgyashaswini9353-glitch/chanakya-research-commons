@@ -1,0 +1,38 @@
+[
+  {
+    "user_id": 55,
+    "username": "promo_bot_acct_1",
+    "email": "promo_bot_acct_1@spam-net.example.com",
+    "spam_pattern": "burst_rate + duplicate_promo_posts + tag_stuffing + off_hours_bot"
+  },
+  {
+    "user_id": 56,
+    "username": "promo_bot_acct_2",
+    "email": "promo_bot_acct_2@spam-net.example.com",
+    "spam_pattern": "burst_rate + duplicate_promo_posts + tag_stuffing + off_hours_bot"
+  },
+  {
+    "user_id": 57,
+    "username": "promo_bot_acct_3",
+    "email": "promo_bot_acct_3@spam-net.example.com",
+    "spam_pattern": "burst_rate + duplicate_promo_posts + tag_stuffing + off_hours_bot"
+  },
+  {
+    "user_id": 58,
+    "username": "promo_bot_acct_4",
+    "email": "promo_bot_acct_4@spam-net.example.com",
+    "spam_pattern": "burst_rate + duplicate_promo_posts + tag_stuffing + off_hours_bot"
+  },
+  {
+    "user_id": 59,
+    "username": "promo_bot_acct_5",
+    "email": "promo_bot_acct_5@spam-net.example.com",
+    "spam_pattern": "burst_rate + duplicate_promo_posts + tag_stuffing + off_hours_bot"
+  },
+  {
+    "user_id": 60,
+    "username": "promo_bot_acct_6",
+    "email": "promo_bot_acct_6@spam-net.example.com",
+    "spam_pattern": "burst_rate + duplicate_promo_posts + tag_stuffing + off_hours_bot"
+  }
+]

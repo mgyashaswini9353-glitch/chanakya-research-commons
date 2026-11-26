@@ -1,28 +1,42 @@
-# Local environment and secrets
+# Environment & Secrets
 .env
-.env.*
-!.env.example
+*.env.local
 
 # Python
-__pycache__/
-*.py[cod]
-*.egg-info/
 .venv/
 venv/
+__pycache__/
+*.py[cod]
+*$py.class
 .pytest_cache/
+*.egg-info/
 
-# Node
-node_modules/
-dist/
-.vite/
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
 
-# Local data and generated analytics
-data/
+# Local runtime tools, databases, & regenerated large binary artifacts
+.tools/
+*.db
+*.db-shm
+*.db-wal
 *.duckdb
-*.parquet
+*.duckdb.wal
+data/raw/
+data/parquet/
+data/processed/*.parquet
+data/processed/*.joblib
+frontend/tsconfig.tsbuildinfo
 
-# Editors and OS
-.idea/
+# IDE / OS
 .vscode/
+.idea/
 .DS_Store
 Thumbs.db
+*.log
+
+# Protect environment-specific files
+.env.*
+!.env.example

@@ -1,0 +1,84 @@
+# ==============================================================================
+# Chanakya Research Commons — Production Compose Overlay (Ubuntu Linux VPS)
+# Usage (after configuring strong secrets in .env):
+#   docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build
+#
+# Key Production Hardening:
+#   - Enforces mandatory secrets via :? (no dev credential fallbacks)
+#   - Forces APP_ENV=production and DEBUG=false (disables /docs & activates security guard)
+#   - Removes public host ports on postgres, minio, and backend (internal network only)
+#   - Binds frontend Nginx exclusively to 127.0.0.1:3000 for Caddy/Nginx HTTPS TLS proxy
+#   - Configures log rotation and memory limits sized for a 4 GB+ RAM Linux VPS
+# ==============================================================================
+
+services:
+  postgres:
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:?Set POSTGRES_USER in .env}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set a strong POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: ${POSTGRES_DB:?Set POSTGRES_DB in .env}
+    ports: !reset []
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    mem_limit: 512m
+
+  minio:
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:?Set MINIO_ROOT_USER in .env}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:?Set a strong MINIO_ROOT_PASSWORD (>=12 chars) in .env}
+    ports: !reset []
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    mem_limit: 512m
+
+  backend:
+    environment:
+      APP_ENV: production
+      DEBUG: "false"
+      ENABLE_SCHEDULER: ${ENABLE_SCHEDULER:-true}
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:?Set POSTGRES_USER}:${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB:?Set POSTGRES_DB}
+      JWT_SECRET_KEY: ${JWT_SECRET_KEY:?Set a strong random 64-char JWT_SECRET_KEY in .env}
+      JWT_EXPIRE_MINUTES: ${JWT_EXPIRE_MINUTES:-720}
+      MINIO_ENDPOINT: http://minio:9000
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:?Set MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:?Set MINIO_ROOT_PASSWORD}
+      MINIO_BUCKET_RAW: ${MINIO_BUCKET_RAW:-chanakya-raw-lake}
+      MINIO_ENABLED: "true"
+      CORS_ORIGINS: ${CORS_ORIGINS:?Set explicit production HTTPS CORS_ORIGINS in .env}
+      OPENALEX_MAILTO: ${OPENALEX_MAILTO:?Set OPENALEX_MAILTO in .env}
+      ARXIV_RATE_LIMIT_SECONDS: ${ARXIV_RATE_LIMIT_SECONDS:-3.0}
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://127.0.0.1:11434}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-llama3.2:3b}
+      HF_HOME: /app/.cache/huggingface
+    ports: !reset []
+    security_opt:
+      - no-new-privileges:true
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
+    mem_limit: 2g
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        VITE_API_BASE_URL: ""
+    ports: !reset
+      - "127.0.0.1:3000:80"
+    security_opt:
+      - no-new-privileges:true
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    mem_limit: 128m

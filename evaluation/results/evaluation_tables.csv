@@ -1,0 +1,12 @@
+Subsystem,Method,Metric_1,Metric_2,Metric_3,Metric_4
+F5 Search,Keyword Search,P@5=0.8,P@10=0.7167,R@10=0.7167,NDCG@10=0.739
+F5 Search,Semantic Search,P@5=0.6833,P@10=0.5583,R@10=0.5583,NDCG@10=0.6051
+F5 Search,Hybrid (RRF+PageRank),P@5=0.7167,P@10=0.7,R@10=0.7,NDCG@10=0.7222
+F6 Recommendations,Popularity Baseline,P@5=0.0971,P@10=0.0714,R@10=0.1752,-
+F6 Recommendations,Hybrid Content+CF,P@5=0.1829,P@10=0.1971,R@10=0.5057,-
+F5 Duplicate Detection,Exact Match Baseline,Prec=1.0,Rec=0.0278,F1=0.0541,-
+F5 Duplicate Detection,MinHash LSH + Author ER,Prec=1.0,Rec=1.0,F1=1.0,-
+F7 Spam Detection,Volume Baseline,Prec=0.5455,Rec=1.0,F1=0.7059,-
+F7 Spam Detection,Isolation Forest + Rules,Prec=1.0,Rec=1.0,F1=1.0,-
+F7 Trend Detection,Sliding Window Z-Score,DetRate=1.0,Prec=1.0,FalseAlarms=0,-
+F8 RAG Assistant,Grounded RAG Pipeline,Hit@5=1.0,CiteAcc=1.0,Cov=1.0,RefusalAcc=1.0
